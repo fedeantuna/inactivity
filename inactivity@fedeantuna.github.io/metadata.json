@@ -1,0 +1,8 @@
+{
+	"uuid": "inactivity@fedeantuna.github.io",
+	"name": "Inactivity",
+	"description": "Hide Activities Button on the top panel.",
+	"version": 1.0,
+	"shell-version": ["41"],
+	"url": "https://github.com/fedeantuna/inactivity"
+}
