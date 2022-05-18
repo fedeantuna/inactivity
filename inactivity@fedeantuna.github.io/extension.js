@@ -1,15 +1,20 @@
-const main = imports.ui.main;
+const Main = imports.ui.main;
+const Activities = Main.panel.statusArea.activities;
 
-const activities = main.panel.statusArea.activities;
+class Extension {
+  enable() {
+    if (Activities) {
+      Activities.hide();
+    }
+  }
 
-const enable = () => {
-	if (activities) {
-		activities.hide();
-	}
+  disable() {
+    if (Activities) {
+      Activities.show();
+    }
+  }
 }
 
-const disable = () => {
-	if (activities) {
-		activities.show();
-	}
+function init() {
+  return new Extension();
 }
