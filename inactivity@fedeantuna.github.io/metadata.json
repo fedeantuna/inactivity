@@ -2,7 +2,7 @@
   "uuid": "inactivity@fedeantuna.github.io",
   "name": "Inactivity",
   "description": "Hide Activities Button on the top panel.",
-  "version": 2,
-  "shell-version": ["42"],
+  "version": 2.1,
+  "shell-version": ["42", "43"],
   "url": "https://github.com/fedeantuna/inactivity"
 }
